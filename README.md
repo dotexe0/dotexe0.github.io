@@ -5,13 +5,13 @@ I build things with HTML5/CSS3, JS, node.js, mongoDB, travis CI, and countless o
 ## A few of my favorite projects:
 daytradr (under construction) 
 ![Landing Page](http://i.imgur.com/CpoIJbX.png "Landing Page")  
-daytradr is a fullstack app that lets you trade stocks with fake money to see potential returns. 
-code:  [Github](https://github.com/dotexe0/daytradr)
+daytradr is a fullstack app that lets you trade stocks with fake money to see potential returns.
+code: [Github](https://github.com/dotexe0/daytradr)
 
 Cinefilm             
 ![Landing Page](http://imgur.com/xaYTvP1.png "Landing Page")   
 Cinefilm is a movie aggregator to help you choose what to watch.
-code: [Github](https://github.com/dotexe0/daytradr)
+code: [Github](https://github.com/dotexe0/cinefilm)
 
 The Bitcoin Quiz   
 ![Landing Page](http://i.imgur.com/kSLfYif.png "Landing Page")  
