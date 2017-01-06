@@ -1,5 +1,6 @@
 ## Welcome to my corner of the universe.
-I am a software developer. **<3** Javascript and so should you!
+I am a software developer. 
+**<3** Javascript and so should you!
 I build things with HTML5/CSS3, JS, node.js, mongoDB, travis CI, and countless other tools!
 
 ## A few of my favorite projects:
@@ -22,4 +23,4 @@ code: [Github](https://github.com/dotexe0/quiz-app/)
 Live Page: [Quiz](https://dotexe0.github.io/quiz-app/)
 
 
-### I will continue to update this page as progress is made on my projects!
+##I will continue to update this page as progress is made on my projects.
