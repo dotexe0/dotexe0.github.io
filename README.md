@@ -1,28 +1,27 @@
-<title>HELLO</title>
+# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
-## Welcome to my corner of the universe.
-I am a software developer. <br>
-**<3** Javascript and so should you! <br>
-I build things with HTML5/CSS3, JS, node.js, mongoDB, travis CI, and countless other tools! <br>
+[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
 
-## A few of my favorite projects:
-daytradr (under construction) 
-![Landing Page](http://i.imgur.com/CpoIJbX.png "Landing Page")  
-daytradr is a fullstack app that lets you trade stocks with fake money to see potential returns. <br>
-code: [Github](https://github.com/dotexe0/daytradr)<br>
-Live Page: [daytradr](http://daytradr.herokuapp.com/)<br>
+## Getting Started
 
-Cinefilm             
-![Landing Page](http://imgur.com/xaYTvP1.png "Landing Page")   <br>
-Cinefilm is a movie aggregator to help you choose what to watch.<br>
-code: [Github](https://github.com/dotexe0/cinefilm)<br>
-Live Page: [Cinefilm](https://dotexe0.github.io/cinefilm/)<br>
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/)
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
+* Fork the repo
 
-The Bitcoin Quiz   
-![Landing Page](http://i.imgur.com/kSLfYif.png "Landing Page")  
-The bitcoin quiz is a fun game to test your crypto knowledge. <br>     
-code: [Github](https://github.com/dotexe0/quiz-app/)<br>
-Live Page: [Quiz](https://dotexe0.github.io/quiz-app/)<br>
+## Bugs and Issues
 
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
 
-##I will continue to update this page as progress is made on my projects.
+## Creator
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
