@@ -1,5 +1,9 @@
 .container {
-  display: -ms-grid
+  display: -ms-grid;
+  background-color: red;
+  width: 500px;
+  height: 500px;
+  border:  solid 1px black;
 }
 
 /*==================================================
