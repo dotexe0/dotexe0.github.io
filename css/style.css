@@ -1,24 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding-top: 250px;
+}
+
 .container {
-  /*display: -ms-grid;*/
   border:  solid 1px black;
   font-family: 'Roboto', sans-serif;
+  /*background-color: #2E4052;
+  color: #7A8590;*/
+}
+
+header {
+  height: 300px;
+  padding-top: 50px;
+  background: #B97375;
+}
+
+.main-navigation-bar, .main {
+  position: relative;
+}
+
+.main-navigation-bar {
+  background: #565264;
+  text-align: center;
+  height: 80px;
+  margin-bottom: 80px;
+  z-index: 100;
+  box-shadow: 0 2px 3px rgba(86, 82, 100, 0.4);
+}
+
+header, .main-navigation-scrolled {
+position: fixed;
+width: 100%;
+top: 0;
+}
+
+.main {
+    background: #f2f2e8;
+  padding: 110px 50px 50px;
+  column-count: 2;
+  column-gap: 40px;
+}
+#homeLink, #portfolioLink, #aboutLink, #githubLink {
+  font-size: 1.5em;
+}
+
+#githubLink {
+  /*float: right;*/
+  /*margin-top: 40px;*/
 }
 
 #myName, #myJobTitle {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 #myName {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 #myJobTitle {
   margin-top: 0px;
 }
 
-.main-navigation-bar {
-  text-align: center;
+.fa-terminal {
+  color: green;
 }
+
     /*==========  Non-Mobile First Method  ==========*/
 
     /* Large Devices, Wide Screens */

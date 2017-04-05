@@ -7,46 +7,61 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
         <script src="https://use.fontawesome.com/85aa392e42.js"></script>
+        <link rel="stylesheet" href="css/font-awesome-animation.min.css">
         <script src="node_modules/jquery/dist/jquery.js"></script>
         <!--entry js file here, can remove after using webpack-->
         <script src="index.js"></script>
-        <link href="style.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
     <div class="container">
+      <header>
+        <h1 id="myName">Hi, I'm Daniel Varela.</h1>
+        <h4 id="myJobTitle"> a Full Stack Developer.</h4>
+
+         <span class="fa-stack fa-lg">
+         <i class="fa fa-square fa-stack-2x"></i>
+         <i class="fa fa-terminal faa-flash animated faa-slow fa-stack-1x fa-inverse"></i>
+        </span>
+      </header>
       <nav class="main-navigation-bar">
-        <a id="homeLink" href="/">Home</a>
         <a id="portfolioLink" href="#portfolio">Portfolio</a>
-        <a id="aboutLink" href="#/about">About</a>
+        <a id="homeLink" href="#homeLink">
+          <i class="fa fa-code fa-3x" aria-hidden="true"></i>
+        </a>
+        <a id="aboutLink" href="#about">About</a>
         <a id="githubLink" href="https://github.com/dotexe0" target="_blank">
           <i class="fa fa-github" aria-hidden="true"></i>
         </a>
-
       </nav>
-      <h1 id="myName">Daniel Varela!</h1>
-      <h4 id="myJobTitle">Full Stack Engineer</h4>
-      <section id="about">
-        This is a story about how my life got twisted upside down...
-      </section>
-      <section id="portfolio">
-        This is a story about how my life got twisted upside down...
-        This is a story about how my life got twisted upside down...
-        This is a story about how my life got twisted upside down...
-        This is a story about how my life got twisted upside down...
-        This is a story about how my life got twisted upside down...
-        This is a story about how my life got twisted upside down...
-        This is a story about how my life got twisted upside down...
-        This is a story about how my life got twisted upside down...
-        This is a story about how my life got twisted upside down...
-       gtggfgg
-       <nav class="portfolio-navigation-bar">
-         <a href="" target="_blank"></a>
-         <a href="" target="_blank"></a>
-         <a href="" target="_blank"></a>
-       </nav>
-      </section>
+
+      <div class="main">
+        <section id="about">
+          <p>
+            Hi, I'm Daniel. I'm a '
+          </p>
+
+        </section>
+        <section id="portfolio">
+          This is a story about how my life got twisted upside down...<br>
+          This is a story about how my life got twisted upside down...<br>
+          This is a story about how my life got twisted upside down...<br>
+          This is a story about how my life got twisted upside down...<br>
+          This is a story about how my life got twisted upside down...<br>
+          This is a story about how my life got twisted upside down...<br>
+          This is a story about how my life got twisted upside down...<br>
+          This is a story about how my life got twisted upside down...<br>
+          This is a story about how my life got twisted upside down...<br>
+        gtggfgg
+        <nav class="portfolio-navigation-bar">
+          <a href="" target="_blank"></a>
+          <a href="" target="_blank"></a>
+          <a href="" target="_blank"></a>
+        </nav>
+        </section>
+      </div>
     </div>
     <!--webpack bundle sourced here-->
-    <script src="build/bundle.js"></script>
+    <!--<script src="build/bundle.js"></script>-->
     </body>
 </html>
