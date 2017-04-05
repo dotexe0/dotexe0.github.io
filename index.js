@@ -5,9 +5,9 @@ console.log('hello world.')
 
 
 // sticky nav-bar
-  const  mn = $(".main-nav");
-  const mns = "main-nav-scrolled";
-  let hdr = $('header').height();
+  var mn = $(".navigation-bar");
+  mns = "navigation-scrolled";
+  hdr = $('header').height();
 
   $(window).scroll(function() {
     if( $(this).scrollTop() > hdr ) {
@@ -18,11 +18,17 @@ console.log('hello world.')
   });
 
 // slow page scroll to href anchor tag
-$(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      console.log(target[0].id);
+      if (target[0].id === 'top') {
+        $('html, body').animate({
+          scrollTop: 0
+        }, 1000);
+        return false;
+      }
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top
@@ -31,8 +37,6 @@ $(function() {
       }
     }
   });
-});
-
 
 
 });

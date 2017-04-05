@@ -8,7 +8,8 @@ body {
 
 .container {
   border:  solid 1px black;
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Quicksand', sans-serif;
   /*background-color: #2E4052;
   color: #7A8590;*/
 }
@@ -19,30 +20,31 @@ header {
   background: #B97375;
 }
 
-.main-navigation-bar, .main {
+.navigation-bar, .main {
   position: relative;
 }
 
-.main-navigation-bar {
-  background: #565264;
+.navigation-bar {
+  background: white;
   text-align: center;
   height: 80px;
-  margin-bottom: 80px;
-  z-index: 100;
-  box-shadow: 0 2px 3px rgba(86, 82, 100, 0.4);
+  /*margin-bottom match height */
+  margin-bottom: -80px;
+  z-index: 150;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
 }
 
-header, .main-navigation-scrolled {
-position: fixed;
-width: 100%;
-top: 0;
+header, .navigation-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .main {
     background: #f2f2e8;
-  padding: 110px 50px 50px;
-  column-count: 2;
-  column-gap: 40px;
+    padding: 110px 50px 50px;
+    /*column-count: 2;
+    column-gap: 40px;*/
 }
 #homeLink, #portfolioLink, #aboutLink, #githubLink {
   font-size: 1.5em;
