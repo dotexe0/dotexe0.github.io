@@ -19,7 +19,6 @@ console.log('hello world.')
 
 // slow page scroll to href anchor tag
   $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       console.log(target[0].id);
@@ -31,11 +30,10 @@ console.log('hello world.')
       }
       if (target.length) {
         $('html, body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top - 200
         }, 1000);
         return false;
       }
-    }
   });
 
 

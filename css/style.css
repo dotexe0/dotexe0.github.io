@@ -14,49 +14,12 @@ body {
   color: #7A8590;*/
 }
 
-header {
-  height: 300px;
-  padding-top: 50px;
-  background: #B97375;
-}
-
-.navigation-bar, .main {
-  position: relative;
-}
-
-.navigation-bar {
-  background: white;
+.introduction {
   text-align: center;
-  height: 80px;
-  /*margin-bottom match height */
-  margin-bottom: -80px;
-  z-index: 150;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
-}
-
-header, .navigation-scrolled {
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
-
-.main {
-    background: #f2f2e8;
-    padding: 110px 50px 50px;
-    /*column-count: 2;
-    column-gap: 40px;*/
-}
-#homeLink, #portfolioLink, #aboutLink, #githubLink {
-  font-size: 1.5em;
-}
-
-#githubLink {
-  /*float: right;*/
-  /*margin-top: 40px;*/
 }
 
 #myName, #myJobTitle {
-  /*text-align: center;*/
+  margin: 0 auto;
 }
 
 #myName {
@@ -67,8 +30,8 @@ header, .navigation-scrolled {
   margin-top: 0px;
 }
 
-.fa-terminal {
-  color: green;
+#quote {
+  text-align: center;
 }
 
     /*==========  Non-Mobile First Method  ==========*/

@@ -12,18 +12,30 @@
         <!--FontAwesome icons/animation-->
         <script src="https://use.fontawesome.com/85aa392e42.js"></script>
         <link rel="stylesheet" href="css/font-awesome-animation.min.css">
-        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/nav-bar.css">
+        <link rel="stylesheet" href="css/style.css" >
     </head>
 
     <body>
     <div class="container">
       <header id="top">
-        <h1 id="myName">Hi, I'm Daniel Varela.</h1>
-        <h4 id="myJobTitle"> a Full Stack Developer.</h4>
-         <span class="fa-stack fa-lg">
-         <i class="fa fa-square fa-stack-2x"></i>
-         <i class="fa fa-terminal faa-flash animated faa-slow fa-stack-1x fa-inverse"></i>
-        </span>
+        <div class="introduction">
+          <h1 id="myName">Hi, I'm Daniel Varela.</h1>
+          <h4 id="myJobTitle"> A Full Stack Engineer.</h4>
+        </div>
+
+        <p id="quote">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-square fa-stack-2x"></i>
+            <i class="fa fa-terminal faa-flash animated faa-slow fa-stack-1x fa-inverse"></i>
+          </span>
+            <i class="fa fa-quote-left fa-2x" aria-hidden="true"></i>
+            <code>If builders built buildings the way programmers wrote programs,<br>
+                     then the first woodpecker that came along wound destroy civilization.
+            </code>
+            <i class="fa fa-quote-right fa-2x" aria-hidden="true"></i>
+             - Gerald Weinberg
+        </p>
       </header>
 
       <nav class="navigation-bar">
@@ -39,6 +51,7 @@
 
       <div class="main">
         <section id="about">
+          <h1>About</h1>
           <p>
             Hi, I'm Daniel. I'm a ' This is a story about how my life got twisted upside down...<br>
           This is a story about how my life got twisted upside down...<br>
@@ -77,6 +90,7 @@
 
         </section>
         <section id="portfolio">
+          <h1>Portfolio</h1>
           This is a story about how my life got twisted upside down...<br>
           This is a story about how my life got twisted upside down...<br>
           This is a story about how my life got twisted upside down...<br>
@@ -121,9 +135,9 @@
       </div>
     </div>
     <!--jQuery-->
-    <script async src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
     <!--entry js file here, can remove after using webpack-->
-    <script async src="index.js"></script>
+    <script src="index.js"></script>
     <!--webpack bundle sourced here-->
     <!--<script src="build/bundle.js"></script>-->
 
