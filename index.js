@@ -1,4 +1,5 @@
+
 $(document).ready((e) => {
-e.preventDefault();
+// e.preventDefault();
 console.log('hello world.')
 });

@@ -23,7 +23,8 @@ const config = {
         // this make the css inline in the head
         // use: ['style-loader', 'css-loader'],
         loader: ExtractTextPlugin.extract({
-          loader: 'css-loader'
+          loader: 'css-loader',
+          use: ['style-loader', 'css-loader']
         }),
         test: /\.css$/
       },

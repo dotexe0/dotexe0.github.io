@@ -1,67 +1,46 @@
 .container {
-  display: -ms-grid;
-  background-color: red;
-  width: 500px;
-  height: 500px;
+  /*display: -ms-grid;*/
   border:  solid 1px black;
+  font-family: 'Roboto', sans-serif;
 }
 
-/*==================================================
-=            Bootstrap 3 Media Queries             =
-==================================================*/
+#myName, #myJobTitle {
+  text-align: center;
+}
 
-    /*==========  Mobile First Method  ==========*/
+#myName {
+  margin-bottom: 0px;
+}
 
-    /* Custom, iPhone Retina */
-    @media only screen and (min-width : 320px) {
+#myJobTitle {
+  margin-top: 0px;
+}
 
-    }
-
-    /* Extra Small Devices, Phones */
-    @media only screen and (min-width : 480px) {
-
-    }
-
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-
-    }
-
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
-
-    }
-
-    /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
-
-    }
-
-
-
+.main-navigation-bar {
+  text-align: center;
+}
     /*==========  Non-Mobile First Method  ==========*/
 
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
-
+      background-color: rgba(241, 228, 232, 1);
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
-
+      background-color: rgba(86, 82, 100, 1);
     }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
-
+      background-color: rgba(242, 84, 91, 1);
     }
-
     /* Extra Small Devices, Phones */
     @media only screen and (max-width : 480px) {
-
+      background-color: rgba(185, 115, 117, 1);
     }
 
     /* Custom, iPhone Retina */
     @media only screen and (max-width : 320px) {
-
+      background-color: #2E4052;
     }
