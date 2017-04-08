@@ -30,7 +30,7 @@ header, .navigation-scrolled {
   padding-right: 10px;
 }
 
-#homeLink, #portfolioLink, #aboutLink {
+#homeLink, #portfolioLink, #aboutLink, #contactLink {
   font-size: 1.5em;
   color: black;
   text-decoration: none;
