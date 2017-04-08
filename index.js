@@ -1,11 +1,9 @@
-import './css/style.css';
-import './css/font-awesome-animation.min.css';
-import './css/nav-bar.css';
+// import './css/style.css';
+// import './css/font-awesome-animation.min.css';
+// import './css/nav-bar.css';
 
 $(document).ready((e) => {
-// e.preventDefault();
 console.log('hello world.')
-
 
 // sticky nav-bar
   const mn = $(".navigation-bar");
@@ -24,7 +22,6 @@ console.log('hello world.')
   $('a[href*="#"]:not([href="#"])').click(function() {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      console.log(target[0].id);
       if (target[0].id === 'top') {
         $('html, body').animate({
           scrollTop: 0
