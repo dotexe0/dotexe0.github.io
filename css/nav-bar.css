@@ -16,6 +16,7 @@ header {
   margin-bottom: -80px;
   z-index: 150;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  padding-top: 25px;
 }
 
 header, .navigation-scrolled {
@@ -24,22 +25,66 @@ header, .navigation-scrolled {
   top: 0;
 }
 
-.main {
-    background: #f2f2e8;
-    padding: 110px 50px 50px;
-    /*column-count: 2;
-    column-gap: 40px;*/
+#bars {
+  font-size: 1.5em;
+  padding-right: 10px;
 }
 
-#homeLink, #portfolioLink, #aboutLink, #githubLink {
+#homeLink, #portfolioLink, #aboutLink {
   font-size: 1.5em;
+  color: black;
+  text-decoration: none;
+  padding-right: 5px;
+}
+
+.nav-links:visited:active {
+  color: black;
+  text-decoration: none;
+  -moz-text-decoration-color: none;
+
+}
+
+.nav-links:hover {
+  border-bottom: 3px solid #B97375;
 }
 
 .fa-terminal {
   color: green;
 }
 
-#githubLink {
-  /*float: right;*/
-  /*margin-top: 40px;*/
+/*FOOTER*/
+
+#footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 20px;
+  background-color: #efefef;
+  text-align: center;
+  z-index: 150;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding-top: 20px;
+
 }
+#footer a:hover {
+  color: #B97375;
+}
+
+#footer a:visited a:active {
+  color: black;
+}
+
+#footer-text {
+  margin: 0 auto;
+  padding-right: 10px;
+}
+
+#emailLink, #githubLink, #linkedInLink {
+  text-decoration: none;
+  padding-right: 10px;
+  color: black;
+}
+
+

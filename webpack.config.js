@@ -1,35 +1,29 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
   entry: './index.js',
   output: {
     // must be absolute path, that's why we use path module
     // be sure that work on any os
-    path: path.resolve(__dirname, 'build'),
+    path: path.join(__dirname, 'build'),
     filename: 'bundle.js',
     // resolve problem about the img with a var name
-    publicPath: 'build/'
+    // publicPath: ''
   },
   module: {
     rules: [
       {
-        use: 'babel-loader', // don't forget .babelrc
+        use: 'babel-loader',
         test: /\.js$/
       },
       {
-        // need to be in this order cause this is from
-        // the right to the left
-        // this make the css inline in the head
-        // use: ['style-loader', 'css-loader'],
-        loader: ExtractTextPlugin.extract({
-          loader: 'css-loader',
-          use: ['style-loader', 'css-loader']
-        }),
-        test: /\.css$/
-      },
-      {
-        test: /\.(jpe?g|png|gif|svg)$/,
+      test: /\.css$/,
+      exclude: /node_modules/,
+      loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader' })},
+    {
+      test: /\.(jpe?g|png|gif|svg)$/,
         use: [
           {
             loader: 'url-loader',
@@ -41,7 +35,10 @@ const config = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin('style.css')
+    new ExtractTextPlugin('style.css'),
+    new HtmlWebpackPlugin({
+      template: 'indexTemplate.html'
+    }),
   ]
 };
 

@@ -1,3 +1,6 @@
+import './css/style.css';
+import './css/font-awesome-animation.min.css';
+import './css/nav-bar.css';
 
 $(document).ready((e) => {
 // e.preventDefault();
@@ -5,9 +8,9 @@ console.log('hello world.')
 
 
 // sticky nav-bar
-  var mn = $(".navigation-bar");
-  mns = "navigation-scrolled";
-  hdr = $('header').height();
+  const mn = $(".navigation-bar");
+  const mns = "navigation-scrolled";
+  const hdr = $('header').height();
 
   $(window).scroll(function() {
     if( $(this).scrollTop() > hdr ) {
@@ -30,11 +33,10 @@ console.log('hello world.')
       }
       if (target.length) {
         $('html, body').animate({
-          scrollTop: target.offset().top - 200
+          scrollTop: target.offset().top - 90
         }, 1000);
         return false;
       }
   });
-
 
 });

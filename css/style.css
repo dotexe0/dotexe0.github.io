@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  max-width: 100%;
 }
 body {
   margin: 0;
@@ -7,11 +8,13 @@ body {
 }
 
 .container {
-  border:  solid 1px black;
-  /*font-family: 'Roboto', sans-serif;*/
   font-family: 'Quicksand', sans-serif;
-  /*background-color: #2E4052;
-  color: #7A8590;*/
+}
+
+.main {
+    background: #F1FAEE;
+    padding: 110px 50px 50px;
+    max-width: 100%;
 }
 
 .introduction {
@@ -33,6 +36,51 @@ body {
 #quote {
   text-align: center;
 }
+
+#code {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 3px;
+  color: seagreen;
+}
+
+#about, #portfolio {
+  margin: 0 auto;
+  width: 500px;
+}
+
+#portfolio {
+  /*column-count: 2;
+  column-gap: 10px;*/
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-items li img {
+  max-width: 500px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 5px rgba(185, 115, 117, 0.2);
+  -moz-box-shadow: 0 0 5px rgba(185, 115, 117, 0.2);
+  box-shadow: 0 0 5px rgba(185, 115, 117, 0.2);
+  -webkit-transition: box-shadow 2s; /* Safari */
+  transition: box-shadow 2s;
+}
+
+.portfolio-items li img:hover {
+  box-shadow: 0 0 10px rgba(185, 115, 117, 5);
+}
+
+.tools-used {
+  display: inline-block;
+  margin-top: 5px;
+  background: white;
+  padding-right: 10px;
+}
+
 
     /*==========  Non-Mobile First Method  ==========*/
 
@@ -57,5 +105,11 @@ body {
 
     /* Custom, iPhone Retina */
     @media only screen and (max-width : 320px) {
+      background-color: #2E4052;
+    }
+
+
+   /* Custom*/
+    @media only screen and (min-width : 565px) {
       background-color: #2E4052;
     }
