@@ -12,7 +12,6 @@ header {
   background: white;
   text-align: center;
   height: 80px;
-  /*margin-bottom match height */
   margin-bottom: -80px;
   z-index: 150;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
@@ -55,17 +54,12 @@ header, .navigation-scrolled {
 /*FOOTER*/
 
 #footer {
-  position: relative;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding-bottom: 20px;
-  background-color: #efefef;
+  background: white;
   text-align: center;
-  z-index: 150;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
-  text-align: center;
-  padding-top: 20px;
+  height: 80px;
+  border-top: 3px solid #B97375;
+  box-shadow: 0 -5px 5px -5px #333;
+  padding-top: 25px;
 
 }
 #footer a:hover {
