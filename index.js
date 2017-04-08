@@ -1,6 +1,6 @@
-import './css/style.css';
-import './css/font-awesome-animation.min.css';
-import './css/nav-bar.css';
+// import './css/style.css';
+// import './css/font-awesome-animation.min.css';
+// import './css/nav-bar.css';
 
 $(document).ready((e) => {
 // e.preventDefault();
