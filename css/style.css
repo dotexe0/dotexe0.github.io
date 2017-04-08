@@ -77,9 +77,24 @@ ul {
 .tools-used {
   display: inline-block;
   margin-top: 5px;
+  margin-bottom: 10px;
   background: white;
   padding-right: 10px;
   font-size: 12px;
+}
+
+#project {
+  text-decoration: none;
+  border-bottom: 3px solid black;
+}
+
+#project:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#project:hover {
+  border-bottom: 3px solid #B97375;
 }
 
 
