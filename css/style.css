@@ -71,15 +71,15 @@ ul {
 .portfolio-items li img {
   max-width: 500px;
   border-radius: 3px;
-  -webkit-box-shadow: 0 0 5px rgba(185, 115, 117, 0.2);
-  -moz-box-shadow: 0 0 5px rgba(185, 115, 117, 0.2);
-  box-shadow: 0 0 5px rgba(185, 115, 117, 0.2);
-  -webkit-transition: box-shadow 1s; /* Safari */
-  transition: box-shadow 1s;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  -webkit-transition: box-shadow 0.5s; /* Safari */
+  transition: box-shadow 0.5s;
 }
 
 .portfolio-items li img:hover {
-  box-shadow: 0 0 10px rgba(185, 115, 117, 5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 5);
 }
 
 h5.tools-used {
