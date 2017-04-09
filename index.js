@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+// import './css/style.css';
+// import './css/font-awesome-animation.min.css';
+// import './css/nav-bar.css';
+// import './css/animate.css';
+>>>>>>> 3b5bdda9fed09e8e85c3834360a604d9f8c12364
 
 $(document).ready((e) => {
 console.log('hello world.')
@@ -32,5 +39,27 @@ console.log('hello world.')
         return false;
       }
   });
+
+  // typed text
+    // let i = 0;
+		$(".fa-stack").click(function() {
+      const quotes = ['<i class="fa fa-quote-left fa-1x" aria-hidden="true"></i>' +
+                  ' If builders built buildings the way programmers wrote programs,<br>' +
+                  'then the first woodpecker that came along wound destroy civilization.' +
+                  '<i class="fa fa-quote-right fa-1x" aria-hidden="true"></i> - Gerald Weinberg ' ,
+                  "Second sentence."];
+
+      const languages = ['React', 'Redux', 'ES6/7', 'jQuery', 'MongoDB', 'HTML5', 'CSS3/LESS', 'Bootstrap', 'MaterialUI', 'PassportJS', 'Webpack', 'Babel', 'TravisCI', 'Heroku', 'Mocha', 'Chai', 'Jest'];
+
+      // if (i >= languages.length) {
+        // i = 0;
+      // }
+
+      $(".typed-text").typed({
+        strings: [...languages],
+        typeSpeed: 0
+      });
+      // i += 1;
+    });
 
 });
