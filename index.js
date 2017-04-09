@@ -46,7 +46,7 @@ console.log('hello world.')
                   '<i class="fa fa-quote-right fa-1x" aria-hidden="true"></i> - Gerald Weinberg ' ,
                   "Second sentence."];
 
-      const languages = ['React', 'Redux', 'ES6/7', 'MongoDB', 'HTML5', 'CSS3/LESS', 'Bootstrap', 'MaterialUI', 'PassportJS', 'Webpack', 'Babel', 'TravisCI', 'Heroku', 'Mocha', 'Chai', 'Jest'];
+      const languages = ['React', 'Redux', 'ES6/7', 'jQuery', 'MongoDB', 'HTML5', 'CSS3/LESS', 'Bootstrap', 'MaterialUI', 'PassportJS', 'Webpack', 'Babel', 'TravisCI', 'Heroku', 'Mocha', 'Chai', 'Jest'];
 
       // if (i >= languages.length) {
         // i = 0;
