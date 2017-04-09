@@ -35,6 +35,19 @@ body {
 
 #quote {
   text-align: center;
+  margin-top: 30px;
+}
+
+.fa-stack {
+  margin-top: -10px;
+}
+
+.fa-stack:hover {
+  cursor: pointer;
+}
+
+.typed-text {
+  font-size: 2em;
 }
 
 #code {
@@ -49,11 +62,6 @@ body {
   width: 500px;
 }
 
-#portfolio {
-  /*column-count: 2;
-  column-gap: 10px;*/
-}
-
 ul {
   list-style: none;
   margin: 0;
@@ -66,26 +74,30 @@ ul {
   -webkit-box-shadow: 0 0 5px rgba(185, 115, 117, 0.2);
   -moz-box-shadow: 0 0 5px rgba(185, 115, 117, 0.2);
   box-shadow: 0 0 5px rgba(185, 115, 117, 0.2);
-  -webkit-transition: box-shadow 2s; /* Safari */
-  transition: box-shadow 2s;
+  -webkit-transition: box-shadow 1s; /* Safari */
+  transition: box-shadow 1s;
 }
 
 .portfolio-items li img:hover {
   box-shadow: 0 0 10px rgba(185, 115, 117, 5);
 }
 
-.tools-used {
+h5.tools-used {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 10px;
-  background: white;
+  background: #B97375;
   padding-right: 10px;
-  font-size: 12px;
+  padding-left: 10px;
+  border-radius: 5px;
 }
 
 #project {
   text-decoration: none;
   border-bottom: 3px solid black;
+}
+a#project {
+  color: black;
 }
 
 #project:visited {

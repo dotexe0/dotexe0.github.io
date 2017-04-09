@@ -54,6 +54,7 @@ header, .navigation-scrolled {
 /*FOOTER*/
 
 #footer {
+  position: relative;
   background: white;
   text-align: center;
   height: 80px;
@@ -81,4 +82,32 @@ header, .navigation-scrolled {
   color: black;
 }
 
+  /* Custom*/
+@media only screen and (max-width : 565px) {
 
+  #homeLink, #portfolioLink, #aboutLink, #contactLink {
+    font-size: 1em;
+  }
+}
+/* Typed css animation */
+.typed-cursor{
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+@keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-moz-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
