@@ -35,7 +35,7 @@ console.log('hello world.')
 
 
 const languages = ['React', 'Redux', 'ES6/7', 'NodeJS', 'jQuery', 'MongoDB', 'HTML5', 'CSS3/LESS', 'Bootstrap', 'MaterialUI', 'PassportJS', 'Webpack', 'Babel', 'TravisCI', 'Heroku', 'Mocha', 'Chai', 'Jest','...', ''];
-
+//run on start
   $(function() {
     $(".typed-text").typed({
           strings: [...languages],
@@ -43,13 +43,8 @@ const languages = ['React', 'Redux', 'ES6/7', 'NodeJS', 'jQuery', 'MongoDB', 'HT
         });
       });
 
+//run on click
   $(".fa-stack").click(function() {
-    const quotes = ['<i class="fa fa-quote-left fa-1x" aria-hidden="true"></i>' +
-                ' If builders built buildings the way programmers wrote programs,<br>' +
-                'then the first woodpecker that came along wound destroy civilization.' +
-                '<i class="fa fa-quote-right fa-1x" aria-hidden="true"></i> - Gerald Weinberg ' ,
-                "Second sentence."];
-
     $(".typed-text").typed({
       strings: [...languages],
       typeSpeed: 0
