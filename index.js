@@ -15,6 +15,18 @@ console.log('hello world.')
     }
   });
 
+//allow clicked element to stick with border@bottom
+function handleNavLinkStyling() {
+  $('.nav-links').click(function(event) {
+    $('.nav-links').removeClass('sticky-border');
+    $(event.currentTarget).addClass('sticky-border');
+  });
+}
+
+$(function() {
+  handleNavLinkStyling();
+});
+
 // slow page scroll to href anchor tag
   $('a[href*="#"]:not([href="#"])').click(function() {
       var target = $(this.hash);

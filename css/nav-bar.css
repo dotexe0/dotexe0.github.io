@@ -8,6 +8,19 @@ header {
   position: relative;
 }
 
+.contact-header {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.contact-header a:hover {
+  color: white !important;
+}
+
+.sticky-border {
+  border-bottom: 3px solid #B97375;
+}
+
 .navigation-bar {
   background: white;
   text-align: center;
@@ -52,7 +65,6 @@ header, .navigation-scrolled {
 }
 
 /*FOOTER*/
-
 #footer {
   position: relative;
   background: white;
@@ -61,8 +73,8 @@ header, .navigation-scrolled {
   border-top: 3px solid #B97375;
   box-shadow: 0 -5px 5px -5px #333;
   padding-top: 25px;
-
 }
+
 #footer a:hover {
   color: #B97375;
 }

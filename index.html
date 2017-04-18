@@ -25,21 +25,26 @@
           <h1 id="myName">Hi, I'm Daniel Varela.</h1>
           <h4 id="myJobTitle"> A Full Stack Engineer.</h4>
         </div>
-
-        <p id="quote">
+      <div class="contact-header">
+        <a id="githubLink" href="mailto:dotexe0@gmail.com" target="_blank">
+          <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+        </a>
+        <a id="githubLink" href="https://github.com/dotexe0" target="_blank">
+          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        </a>
+        <a id="linkedInLink" href="https://www.linkedin.com/in/danielv1/" target="_blank">
+          <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+        </a>
+      </div>
+        <div id="quote">
           <span class="fa-stack fa-lg">
             <i class="fa fa-square fa-stack-2x"></i>
             <i class="fa fa-terminal faa-flash animated faa-slow fa-stack-1x fa-inverse"></i>
           </span>
           <span class="typed-text">
-            <!--<i class="fa fa-quote-left fa-2x" aria-hidden="true"></i>
-            <code>If builders built buildings the way programmers wrote programs,<br>
-                     then the first woodpecker that came along wound destroy civilization.
-            </code>
-            <i class="fa fa-quote-right fa-2x" aria-hidden="true"></i>
-             - Gerald Weinberg-->
           </span>
-        </p>
+        </div>
+
       </header>
 
       <nav class="navigation-bar">
@@ -66,7 +71,8 @@
           <h1>Portfolio</h1>
           <div class="projects">
             <ul class="portfolio-items">
-              <li>
+              <li class="project">
+                <h3 class="project-title">Outside</h3>
                 <a href="https://outside-capstone.herokuapp.com/" target="_blank"><img src="https://imgur.com/iJqDBJh.jpg" alt="Outside"></a>
                 <span>
                   <h5 class="tools-used">React</h5>
@@ -78,14 +84,15 @@
                   <h5 class="tools-used">REST API</h5>
                 </span><br>
                 <a id="project" href="https://outside-capstone.herokuapp.com/" target="_blank">Outside Demo</a>
-                <p>
+                <p id="project-content">
                   A Full-Stack Single Page Application (SPA) built on React/Redux and MongoDB.
                   This app lets you manage events and/or schedules through a simple intuitive
                   user interface.
                 </p>
               </li><br>
 
-             <li>
+             <li class="project">
+                <h3 class="project-title">daytradr</h3>
                 <a href="https://daytradr.herokuapp.com/" target="_blank"><img src="https://imgur.com/MP0wKQ1.jpg" alt="Daytradr"></a>
                 <span>
                   <h5 class="tools-used">HTML5</h5>
@@ -96,14 +103,15 @@
                   <h5 class="tools-used">REST API</h5>
                 </span><br>
                 <a id="project" href="https://daytradr.herokuapp.com/" target="_blank">Daytradr Demo</a>
-                <p>
+                <p id="project-content">
                   A Full-Stack stock trading game app that seamlessly combines real-time stock data with a game-centric trades.
                   Who can build the best portfolio without risking real money?
                   Start off with $10,000 and make Buy/Sell trades at Market Price.
                 </p>
               </li><br>
 
-              <li>
+              <li class="project">
+                <h3 class="project-title">Cinefilm</h3>
                 <a href="https://dotexe0.github.io/cinefilm/" target="_blank"><img src="https://imgur.com/zQyJmDv.jpg" alt="Cinefilm"></a>
                 <span>
                   <h5 class="tools-used">HTML5</h5>
@@ -114,14 +122,15 @@
                   <h5 class="tools-used">GuideBox REST API</h5>
                 </span><br>
                 <a id="project" href="https://dotexe0.github.io/cinefilm/" target="_blank">Cinefilm Demo</a>
-                <p>
+                <p id="project-content">
                   A Front-End movie aggregator app that runs off Guidebox's API. Ever feel like watching a movie, but
                   can't figure out what to watch? This app lets you search through top rated films or any specific movie
                   of your choice. See ratings, trailers, movie summary, etc.
                 </p>
               </li><br>
 
-              <li>
+              <li class="project">
+                <h3 class="project-title">Gamesift</>
                 <a href="https://gamesift.surge.sh/#/" target="_blank"><img src="https://imgur.com/YufvWPJ.jpg" alt="Gamesift"></a>
                 <span>
                   <h5 class="tools-used">React</h5>
@@ -132,7 +141,7 @@
                   <h5 class="tools-used">IGDB REST API</h5>
                 </span><br>
                 <a id="project" href="https://gamesift.surge.sh/#/" target="_blank">Gamesift Demo</a>
-                <p>
+                <p id="project-content">
                   A Front-End React/Redux video game synopsis search engine. Hear about a cool new game, but want to get a quick synopsis/summary?
                   This app lets you search for video games and find out what it's all about.
                 </p>
@@ -143,7 +152,6 @@
         </section>
       </div>
       <footer id="footer">
-        <span id="footer-text">Contact: </span>
         <a id="githubLink" href="mailto:dotexe0@gmail.com" target="_blank">
           <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
         </a>
