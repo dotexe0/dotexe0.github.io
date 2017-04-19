@@ -107,6 +107,7 @@ header, .navigation-scrolled {
 	-webkit-animation: blink 0.7s infinite;
 	-moz-animation: blink 0.7s infinite;
 	animation: blink 0.7s infinite;
+  font-size: 30px;
 }
 @keyframes blink{
 	0% { opacity:1; }
