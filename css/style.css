@@ -150,6 +150,7 @@ a#project {
 
 .tools {
   text-align: justify;
+  display: inline-block;
 }
 
   /* Custom*/
