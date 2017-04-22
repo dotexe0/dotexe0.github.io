@@ -1,7 +1,7 @@
 header {
   height: 300px;
   padding-top: 50px;
-  background: #B97375;
+  background: #37393A;
 }
 
 .navigation-bar, .main {
@@ -18,7 +18,7 @@ header {
 }
 
 .sticky-border {
-  border-bottom: 3px solid #B97375;
+  border-bottom: 3px solid #167ebc;
 }
 
 .navigation-bar {
@@ -44,7 +44,7 @@ header, .navigation-scrolled {
 
 #homeLink, #portfolioLink, #aboutLink, #contactLink {
   font-size: 1.5em;
-  color: black;
+  color: #37393A;
   text-decoration: none;
   padding-right: 5px;
 }
@@ -57,7 +57,7 @@ header, .navigation-scrolled {
 }
 
 .nav-links:hover {
-  border-bottom: 3px solid #B97375;
+  border-bottom: 3px solid #167ebc;
 }
 
 .fa-terminal {
@@ -70,13 +70,13 @@ header, .navigation-scrolled {
   background: white;
   text-align: center;
   height: 80px;
-  border-top: 3px solid #B97375;
+  border-top: 3px solid #167ebc;
   box-shadow: 0 -5px 5px -5px #333;
   padding-top: 25px;
 }
 
 #footer a:hover {
-  color: #B97375;
+  color: #167ebc;
 }
 
 #footer a:visited a:active {
@@ -91,7 +91,7 @@ header, .navigation-scrolled {
 #emailLink, #githubLink, #linkedInLink {
   text-decoration: none;
   padding-right: 10px;
-  color: black;
+  color: #167ebc;
 }
 
   /* Custom*/
