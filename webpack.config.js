@@ -19,10 +19,13 @@ const config = {
         test: /\.js$/
       },
       {
-      test: /\.css$/,
-      exclude: /node_modules/,
-      loader: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader' })},
-    {
+        test: /\.css$/,
+        use: ExtractTextPlugin.extract({
+          fallback: "style-loader",
+          use: "css-loader"
+        })
+      },
+      {
       test: /\.(jpe?g|png|gif|svg)$/,
         use: [
           {
@@ -35,10 +38,8 @@ const config = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin('style.css'),
-    new HtmlWebpackPlugin({
-      template: 'indexTemplate.html'
-    }),
+    new ExtractTextPlugin('styles.css'),
+    new HtmlWebpackPlugin({template: 'index.html'}),
   ]
 };
 
