@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/dotexe0/dotexe0.github.io#readme",
   "scripts": {
-    "build": " yarn run clean && webpack -p && cp -r css/ build/css",
+    "build": " yarn run clean && webpack -p && cp -r css/ build/css && cp -r js/ build/js && cp favicon.ico build/",
     "clean": "rimraf build"
   },
   "dependencies": {
