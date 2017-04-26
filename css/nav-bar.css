@@ -89,7 +89,7 @@ header, .navigation-scrolled {
   padding-right: 10px;
 }
 
-#emailLink, #githubLink, #linkedInLink {
+#emailLink, #githubLink, #linkedInLink, #resumeLink {
   text-decoration: none;
   padding-right: 10px;
   color: #167ebc;
